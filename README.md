@@ -1,2 +1,2 @@
 # shakibLen-
-It is display the length of your string .
+It will display the length of your string .
