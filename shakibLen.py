@@ -1,12 +1,9 @@
 def sakib_len(x):
-    a = []
-    a.extend(x)
-    a.sort()
+    count = 0
     for i in a:
-        x = a.index(i)
+        count+=1
 
-    return x+1
-
+    return count
 
 print(sakib_len('1234'))
 print(sakib_len('qwert'))
